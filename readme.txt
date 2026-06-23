@@ -1,57 +1,141 @@
-=== Hello Elementor Child ===
+# NovixMail
 
-Contributors: elemntor
-Requires at least: 5.9
-Tested up to: 6.2
-Stable tag: 2.0.0
-Version: 2.0.0
-Requires PHP: 5.6
-License: GNU General Public License v3 or later
-License URI: https://www.gnu.org/licenses/gpl-3.0.html
-Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
+<div align="center">
 
-The Hello Elementor Child Theme is a starter blank child theme for [Hello Elementor](https://wordpress.org/themes/hello-elementor/) theme.
+# ✉️ NovixMail
 
-== Description ==
+Modern WordPress Theme for Selling Email Services & Accounts
 
-Hello Elementor Child is a lightweight and minimalist WordPress theme that was built specifically to work seamlessly with the Elementor page builder plugin. The theme is free, open-source, and designed for users who want a flexible, easy-to-use, and customizable website.
+![Status](https://img.shields.io/badge/Status-Development-orange?style=for-the-badge)
+![WordPress](https://img.shields.io/badge/WordPress-6.x-blue?style=for-the-badge)
+![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?style=for-the-badge)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.x-38BDF8?style=for-the-badge)
 
-The theme's main focus is on providing a solid foundation for users to build their own unique designs using the Elementor drag-and-drop site builder. It is optimized for speed and performance, and its simplicity and flexibility make it a great choice for both beginners and experienced website designers.
+</div>
 
-The theme supports common WordPress features which can be extended using a child-theme. In addition, there are several ways to add custom styles. It can be done from **Elementor**, from the WordPress customizer, using a child-theme, or with an external plugin. To customize the theme further, visit [Elementor developers docs](https://developers.elementor.com/docs/hello-elementor-theme/).
+---
 
-== Installation ==
+## 📖 About
 
-1. In your admin panel, go to Appearance > Themes and click the 'Add New' button.
-2. Click 'Upload theme' and upload the zipped child.
-3. Click on the 'Activate' button to use your new theme right away.
-4. Navigate to Elementor and start building your site.
+NovixMail is a modern WordPress theme developed for selling email accounts and online services. The project focuses on delivering a clean user experience, responsive layouts, and a modern design system powered by Tailwind CSS.
 
-== Copyright ==
+The theme is currently under active development.
 
-This theme, like WordPress, is distributed under the terms of GPL.
-Use it as your springboard to building a site with ***Elementor***.
+---
 
-Hello Elementor bundles the following third-party resources:
+## ✨ Features
 
-Font Awesome icons for theme screenshot
-License: SIL Open Font License, version 1.1.
-Source: https://fontawesome.com/v4.7.0/
+* Modern and responsive UI
+* Built with Tailwind CSS
+* WordPress compatible
+* Custom PHP functionality
+* Light Mode support
+* Dark Mode support
+* Mobile-first design
+* Pricing page
+* Service selling layout
+* Modern user experience
 
-Image for theme screenshot, Copyright Jason Blackeye
-License: CC0 1.0 Universal (CC0 1.0)
-Source: https://stocksnap.io/photo/4B83RD7BV9
+---
 
-== Changelog ==
+## 🛠 Tech Stack
 
-= 2.0.0 - 2023-04-27 =
-* Load child theme stylesheet after parent theme stylesheet
-* Added a constant for better version management
-* Prevent direct access to `functions.php`
-* Optimize screenshot image
-* Update `Requires at least: 5.9`
-* Update `Tested up to: 6.2`
-* Update `Theme URI` link
+| Technology   | Usage                  |
+| ------------ | ---------------------- |
+| PHP          | Theme Development      |
+| WordPress    | CMS                    |
+| Tailwind CSS | UI Styling             |
+| JavaScript   | Interactive Components |
 
-= 1.0.0 - 2019-05-23 =
-* Initial public release
+---
+
+## 🌗 Theme Modes
+
+NovixMail supports both appearance modes:
+
+* ☀️ Light Mode
+* 🌙 Dark Mode
+
+Users can switch between themes for a better user experience.
+
+---
+
+## 📸 Screenshots
+
+### Home Page
+
+| Light Mode                             | Dark Mode                             |
+| -------------------------------------- | ------------------------------------- |
+| ![](assets/screenshots/home-light.png) | ![](assets/screenshots/home-dark.png) |
+
+### Pricing Page
+
+| Light Mode                                | Dark Mode                                |
+| ----------------------------------------- | ---------------------------------------- |
+| ![](assets/screenshots/pricing-light.png) | ![](assets/screenshots/pricing-dark.png) |
+
+---
+
+## 📂 Project Structure
+
+```text
+assets/
+└── screenshots/
+    ├── home-dark.png
+    ├── home-light.png
+    ├── pricing-dark.png
+    └── pricing-light.png
+```
+
+---
+
+## 🚀 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/novixmail.git
+```
+
+Move the theme to:
+
+```text
+wp-content/themes/
+```
+
+Activate the theme from the WordPress dashboard.
+
+If Tailwind assets need to be compiled:
+
+```bash
+npm install
+npm run build
+```
+
+---
+
+## 🚧 Development Status
+
+This project is currently under active development.
+
+Upcoming features:
+
+* Authentication pages
+* User dashboard
+* Account management pages
+* Service checkout pages
+* Additional UI components
+
+---
+
+## 📄 License
+
+This project is intended for personal and educational purposes.
+
+---
+
+<div align="center">
+
+Made with ❤️ using WordPress, PHP and Tailwind CSS.
+
+</div>
