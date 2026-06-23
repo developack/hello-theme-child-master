@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+@theme {
+    /* BreakPoints */
+    --breakpoint-xs: 22.5rem;
+    /* Brand */
+    --color-primary: rgb(109 74 255);
+    --color-primary-hover: #5434D2;
+    --color-primary-shadow: #2563EB38;
+    --color-secondary: #38BDF8;
+    --color-success: #10B981;
+    --color-cta: #F59E0B;
+    --color-cta-shadow: #F59E0B38;
+    /* Semantic colors */
+    --color-text: #1F2937;
+    --color-text-secondary: #7385AF;
+    --color-body-bg: #F7F9FE;
+    --color-border: #d7ddef;
+    --color-button: oklch(96.8% 0.007 247.896);
+    --color-cart-bg: #fff;
+    /* Shadows */
+    --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+    --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+    --shadow-lg: 0 10px 30px rgba(0,0,0,0.12);
+    --shadow-regular: 0 20px 16px -16px #7385af75;
+    --shadow-primary: 0 20px 16px -16px #2563EB80;
+    --shadow-success: 0 20px 16px -16px #10B98180;
+    --shadow-cta: 0 20px 16px -16px #F59E0B80;
+}
+  
+@layer base {
+    html.dark {
+      --color-text: #E5E7EB;
+      --color-text-secondary: #9CA3AF;
+      --color-body-bg: #0B1220;
+      --color-cart-bg: #111827;
+      --color-border: #1F2937;
+      --color-gray-200: #334155;
+      --shadow-sm: 0 1px 2px rgba(0,0,0,0.4);
+      --shadow-md: 0 4px 12px rgba(0,0,0,0.5);
+      --shadow-lg: 0 10px 30px rgba(0,0,0,0.6);
+      
+    }
+}
+
+@utility container {
+    width: 100%;
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+}
+
+@media (min-width: 360px) {
+    .container {
+        max-width: 100%;
+        min-width: 20rem;
+    }
+}
+
+@media (min-width: 640px) {
+    .container {
+        max-width: 36rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 44rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        max-width: 60rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .container {
+        max-width: 82.5rem;
+    }
+}
+
+@layer components {
+    .active-theme {
+        @apply bg-gray-200;
+    }
+}
+
+@layer base {
+    * {
+        color: var(--color-text);
+    }
+    a {
+        color: var(--color-text);
+    }
+    html {
+        scroll-behavior: smooth;
+    }
+    body {
+        background-color: var(--color-body-bg);
+        font-family: "Roboto";
+        overflow-x: hidden;
+    }
+    ::selection {
+        background-color: var(--color-primary);
+        color: #fff;
+    }
+}
