@@ -12,7 +12,7 @@
                     </span>
                     Trusted by thousands of customers worldwide
                 </p>
-                <h1 class="font-bold text-4xl mt-6 leading-12">Premium Email Accounts for <span class="text-primary"> All Your Business Needs</span></h1>
+                <h1 class="font-black text-4xl mt-6 leading-12">Premium Email Accounts for <span class="text-primary"> All Your Business Needs</span></h1>
                 <p class="my-5 text-text-secondary">Buy high-quality email accounts from top providers with guaranteed authenticity and performance.
                     Enjoy fast delivery, 100% secure transactions, and a reliable service you can trust.</span>
                 <div class="flex items-center gap-5">
@@ -71,7 +71,7 @@
         <section class="container flex flex-col gap-10 items-center pt-30">
             <div class="flex flex-col items-center gap-3">
                 <span class="text-secondary text-sm font-black">FEATURES</span>
-                <h2 class="font-bold text-3xl">Why Choose <?php echo get_bloginfo('name'); ?>?</h2>
+                <h2 class="font-black text-3xl">Why Choose <?php echo get_bloginfo('name'); ?>?</h2>
             </div>
             <div class="grid xl:grid-cols-4 md:grid-cols-2 gap-5">
                 <div class="bg-cart-bg p-4 rounded-xl grid grid-cols-[75px_auto] items-center shadow-md md:grid-cols-1 md:gap-5">
@@ -136,7 +136,7 @@
         <section class="container flex flex-col gap-10 items-center pt-30">
             <div class="flex flex-col items-center gap-3">
                 <span class="text-secondary text-sm font-black">POPULAR ACCOUNTS</span>
-                <h2 class="font-bold text-3xl text-center">Our Most Popular Email Accounts</h2>
+                <h2 class="font-black text-3xl text-center">Our Most Popular Email Accounts</h2>
             </div>
             <div class="grid xl:grid-cols-4 md:grid-cols-2 gap-5 w-full">
                 <div class="bg-cart-bg rounded-xl p-5 shadow-md">
@@ -147,7 +147,7 @@
                         <h4 class="font-bold text-center text-lg">Google Accounts</h4>
                         <span class="text-center text-sm text-text-secondary">High quality Gmail accounts</span>
                     </div>
-                    <div class="mt-10 font-bold text-4xl">$1.49 <span class="font-normal text-base text-text-secondary">/month</span></div>
+                    <div class="mt-10 font-bold text-4xl font-[Manrope]">$1.49 <span class="font-normal text-base text-text-secondary">/month</span></div>
                     <button class="bg-primary rounded-xl py-2 px-4 w-full text-white mt-3 transition hover:bg-primary-hover">Buy Now</button>
                 </div>
                 <div class="bg-cart-bg rounded-xl p-5 shadow-md">
@@ -158,7 +158,7 @@
                         <h4 class="font-bold text-center text-lg">iCloud Accounts</h4>
                         <span class="text-center text-sm text-text-secondary">High quality iCloud accounts</span>
                     </div>
-                    <div class="mt-10 font-bold text-4xl">$1.49 <span class="font-normal text-base text-text-secondary">/month</span></div>
+                    <div class="mt-10 font-bold text-4xl font-[Manrope]">$1.49 <span class="font-normal text-base text-text-secondary">/month</span></div>
                     <button class="bg-primary rounded-xl py-2 px-4 w-full text-white mt-3 transition hover:bg-primary-hover">Buy Now</button>
                 </div>
                 <div class="bg-cart-bg rounded-xl p-5 shadow-md">
@@ -169,7 +169,7 @@
                         <h4 class="font-bold text-center text-lg">Yahoo Accounts</h4>
                         <span class="text-center text-sm text-text-secondary">High quality Yahoo accounts</span>
                     </div>
-                    <div class="mt-10 font-bold text-4xl">$1.49 <span class="font-normal text-base text-text-secondary">/month</span></div>
+                    <div class="mt-10 font-bold text-4xl font-[Manrope]">$1.49 <span class="font-normal text-base text-text-secondary">/month</span></div>
                     <button class="bg-primary rounded-xl py-2 px-4 w-full text-white mt-3 transition hover:bg-primary-hover">Buy Now</button>
                 </div>
                 <div class="bg-cart-bg rounded-xl p-5 shadow-md">
@@ -180,7 +180,7 @@
                         <h4 class="font-bold text-center text-lg">Outlook Accounts</h4>
                         <span class="text-center text-sm text-text-secondary">High quality Outlook accounts</span>
                     </div>
-                    <div class="mt-10 font-bold text-4xl">$1.49 <span class="font-normal text-base text-text-secondary">/month</span></div>
+                    <div class="mt-10 font-bold text-4xl font-[Manrope]">$1.49 <span class="font-normal text-base text-text-secondary">/month</span></div>
                     <button class="bg-primary rounded-xl py-2 px-4 w-full text-white mt-3 transition hover:bg-primary-hover">Buy Now</button>
                 </div>
             </div>
@@ -190,7 +190,7 @@
         <section class="container flex flex-col gap-10 items-center pt-30">
             <div class="flex flex-col items-center gap-3">
                 <span class="text-secondary text-sm font-black">WHY US</span>
-                <h2 class="font-bold text-3xl text-center">The <?php echo get_bloginfo('name'); ?> Advantage</h2>
+                <h2 class="font-black text-3xl text-center">The <?php echo get_bloginfo('name'); ?> Advantage</h2>
             </div>
             <div class="grid md:grid-cols-2 gap-10 w-full items-center">
                 <figure>
@@ -249,7 +249,7 @@
         <section class="container flex flex-col gap-10 items-center pt-30">
             <div class="flex flex-col items-center gap-3">
                 <span class="text-secondary text-sm font-black">WHAT OUR CUSTOMERS SAY</span>
-                <h2 class="font-bold text-3xl text-center">Trusted by Thousands</h2>
+                <h2 class="font-black text-3xl text-center">Trusted by Thousands</h2>
             </div>
             <div class="grid grid-cols-1 gap-5 w-full md:grid-cols-2 lg:grid-cols-3">
                 <div class="bg-cart-bg p-8 pt-15 rounded-xl shadow-md">

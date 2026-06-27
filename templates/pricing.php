@@ -12,7 +12,7 @@
                     </span>
                     Trusted by thousands of customers worldwide
                 </p>
-                <h1 class="font-bold text-4xl mt-6 leading-12">Simple, Transparent Pricing <span class="text-primary">For Everyone</span></h1>
+                <h1 class="font-black text-4xl mt-6 leading-12">Simple, Transparent Pricing <span class="text-primary">For Everyone</span></h1>
                 <p class="my-5 text-text-secondary">Find the perfect plan for your needs and unlock access to premium email accounts designed for performance and reliability. From personal use to business communication, our plans offer the flexibility, security, and features you need. Start today and elevate your email experience with confidence.</span>
                 <div class="flex gap-5 items-center mt-10">
                     <div class="flex items-center gap-1 text-xs">
@@ -52,7 +52,7 @@
                     <h3 class="font-bold text-2xl">Starter</h3>
                     <span class="text-text-secondary">Perfect for beginners</span>
                 </div>
-                <div class="font-bold text-4xl text-primary mt-5">$1.49 <span class="font-normal text-base">/month</span></div>
+                <div class="font-bold text-4xl text-primary mt-5 font-[Manrope]">$1.49 <span class="font-normal text-base">/month</span></div>
                 <div class="flex flex-col gap-5 my-10">
                     <div class="grid grid-cols-[35px_auto] items-center">
                         <span class="flex">
@@ -109,7 +109,7 @@
                     <h3 class="font-bold text-2xl">Standard</h3>
                     <span class="text-text-secondary">Great for growing needs</span>
                 </div>
-                <div class="font-bold text-4xl text-primary mt-5">$1.49 <span class="font-normal text-base">/month</span></div>
+                <div class="font-bold text-4xl text-primary mt-5 font-[Manrope]">$1.49 <span class="font-normal text-base">/month</span></div>
                 <div class="flex flex-col gap-5 my-10">
                     <div class="grid grid-cols-[35px_auto] items-center">
                         <span class="flex">
@@ -165,7 +165,7 @@
                     <h3 class="font-bold text-2xl">Premium</h3>
                     <span class="text-text-secondary">Best for professionals</span>
                 </div>
-                <div class="font-bold text-4xl text-primary mt-5">$1.49 <span class="font-normal text-base">/month</span></div>
+                <div class="font-bold text-4xl text-primary mt-5 font-[Manrope]">$1.49 <span class="font-normal text-base">/month</span></div>
                 <div class="flex flex-col gap-5 my-10">
                     <div class="grid grid-cols-[35px_auto] items-center">
                         <span class="flex">
@@ -226,7 +226,7 @@
                     <h3 class="font-bold text-2xl">Ultimate</h3>
                     <span class="text-text-secondary">For advanced users</span>
                 </div>
-                <div class="font-bold text-4xl text-primary mt-5">$1.49 <span class="font-normal text-base">/month</span></div>
+                <div class="font-bold text-4xl text-primary mt-5 font-[Manrope]">$1.49 <span class="font-normal text-base">/month</span></div>
                 <div class="flex flex-col gap-5 my-10">
                     <div class="grid grid-cols-[35px_auto] items-center">
                         <span class="flex">
