@@ -15,9 +15,8 @@
             class="hidden lg:block">
             <nav class="flex flex-col gap-8 list-none text-2xl lg:flex-row lg:items-start lg:justify-between">
                 <a href="<?php echo home_url() ?>" class="text-base md:text-sm font-semibold hover:text-primary transition">Home</a>
-                <a href="#" class="text-base md:text-sm font-semibold hover:text-primary transition">Accounts</a>
                 <a href="<?php echo home_url('pricing') ?>" class="text-base md:text-sm font-semibold hover:text-primary transition">Pricing</a>
-                <a href="#" class="text-base md:text-sm font-semibold hover:text-primary transition">Features</a>
+                <a href="<?php echo home_url('features') ?>" class="text-base md:text-sm font-semibold hover:text-primary transition">Features</a>
                 <a href="#" class="text-base md:text-sm font-semibold hover:text-primary transition">FAQ</a>
                 <a href="#" class="text-base md:text-sm font-semibold hover:text-primary transition">Contact</a>
             </nav>
@@ -78,9 +77,8 @@
     </div>
     <nav class="flex flex-col gap-8 list-none text-2xl lg:flex-row lg:items-start lg:justify-between">
         <a href="<?php echo home_url() ?>" class="text-base md:text-sm font-semibold hover:text-primary transition">Home</a>
-        <a href="#" class="text-base md:text-sm font-semibold hover:text-primary transition">Accounts</a>
         <a href="<?php echo home_url('pricing') ?>" class="text-base md:text-sm font-semibold hover:text-primary transition">Pricing</a>
-        <a href="#" class="text-base md:text-sm font-semibold hover:text-primary transition">Features</a>
+        <a href="<?php echo home_url('features') ?>" class="text-base md:text-sm font-semibold hover:text-primary transition">Features</a>
         <a href="#" class="text-base md:text-sm font-semibold hover:text-primary transition">FAQ</a>
         <a href="#" class="text-base md:text-sm font-semibold hover:text-primary transition">Contact</a>
     </nav>

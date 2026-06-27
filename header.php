@@ -18,6 +18,7 @@ $skip_link_url = apply_filters( 'hello_elementor_skip_link_url', '#content' );
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="<?php echo esc_attr( $viewport_content ); ?>">
+	<meta name="theme-color" content="rgb(109 74 255)">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<?php wp_head(); ?>
 </head>

@@ -52,6 +52,7 @@ require_once get_stylesheet_directory()."/shortcodes/home.php";
 require_once get_stylesheet_directory()."/shortcodes/pricing.php";
 require_once get_stylesheet_directory()."/shortcodes/login.php";
 require_once get_stylesheet_directory()."/shortcodes/register.php";
+require_once get_stylesheet_directory()."/shortcodes/features.php";
 
 
 
