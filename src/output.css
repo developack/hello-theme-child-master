@@ -662,6 +662,9 @@
   .border-slate-200 {
     border-color: var(--color-slate-200);
   }
+  .bg-\[\#2CB39E\] {
+    background-color: #2CB39E;
+  }
   .bg-\[\#2CB39E\]\/15 {
     background-color: color-mix(in oklab, #2CB39E 15%, transparent);
   }
@@ -674,17 +677,32 @@
   .bg-\[\#5B5CFF\]\/15 {
     background-color: color-mix(in oklab, #5B5CFF 15%, transparent);
   }
+  .bg-\[\#7CCF00\] {
+    background-color: #7CCF00;
+  }
   .bg-\[\#7CCF00\]\/15 {
     background-color: color-mix(in oklab, #7CCF00 15%, transparent);
+  }
+  .bg-\[\#155DFC\] {
+    background-color: #155DFC;
   }
   .bg-\[\#155DFC\]\/15 {
     background-color: color-mix(in oklab, #155DFC 15%, transparent);
   }
+  .bg-\[\#375DFB\] {
+    background-color: #375DFB;
+  }
   .bg-\[\#375DFB\]\/15 {
     background-color: color-mix(in oklab, #375DFB 15%, transparent);
   }
+  .bg-\[\#E11D48\] {
+    background-color: #E11D48;
+  }
   .bg-\[\#E11D48\]\/15 {
     background-color: color-mix(in oklab, #E11D48 15%, transparent);
+  }
+  .bg-\[\#F97316\] {
+    background-color: #F97316;
   }
   .bg-\[\#F97316\]\/15 {
     background-color: color-mix(in oklab, #F97316 15%, transparent);
