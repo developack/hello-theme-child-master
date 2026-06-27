@@ -478,6 +478,9 @@
   .max-w-md {
     max-width: var(--container-md);
   }
+  .min-w-36 {
+    min-width: calc(var(--spacing) * 36);
+  }
   .min-w-\[850px\] {
     min-width: 850px;
   }
@@ -1070,6 +1073,9 @@
   }
   .opacity-0 {
     opacity: 0%;
+  }
+  .opacity-100 {
+    opacity: 100%;
   }
   .shadow {
     --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
