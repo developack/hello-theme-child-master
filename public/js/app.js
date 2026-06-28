@@ -1,7 +1,9 @@
 window.onload = () => {
   const theme = localStorage.getItem("theme")
   const activeItem = document.querySelector(`#themeDropDown [data-theme="${theme}"]`)
-  activeItem.classList.add("active-theme")
+  if (activeItem) {
+    activeItem.classList.add("active-theme")
+  }
   const activeTheme = document.getElementById("activeTheme")
   const themeDropDown = document.getElementById("themeDropDown")
 
