@@ -1,8 +1,8 @@
 <div class="min-h-screen flex">
     <div class="absolute top-0 left-0 w-80 h-80 bg-primary rounded-full blur-[200px]"></div>
     <div class="container flex flex-col gap-10 items-center justify-center relative z-10">
-        <a href="http://localhost/novixmail" class="select-none flex items-center gap-1">
-            <img decoding="async" class="w-20" src="http://localhost/novixmail/wp-content/uploads/2026/06/logo.png" alt="">
+        <a href="<?php echo home_url(); ?>" class="select-none flex items-center gap-1">
+            <img decoding="async" class="w-20" src="<?php echo home_url('wp-content/uploads/2026/06/logo.png') ?>" alt="">
             <div class="font-bold text-2xl dark:text-white">Novix<span class="text-primary">mail</span></div>
         </a>
         <div class="bg-cart-bg rounded-xl p-8 shadow-md flex flex-col gap-5 items-center max-w-[400px] w-full">
